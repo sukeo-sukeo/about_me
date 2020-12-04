@@ -1,7 +1,7 @@
 <template>
 <v-app>
   <div class="profile mt-16">
-    <h1>This is an Learned page</h1>
+    <h1>This is an Books page</h1>
   </div>
 </v-app>
 </template>
