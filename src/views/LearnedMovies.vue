@@ -1,12 +1,11 @@
 <template>
-<v-app>
-  <div class="profile mt-16">
-    <h1>This is an Movies page</h1>
+  <div>
+    
   </div>
-</v-app>
 </template>
 
 <script>
-// @ is an alias to /src
-
+export default {
+  name: 'LearnedMovies',
+}
 </script>

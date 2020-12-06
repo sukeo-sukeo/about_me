@@ -1,42 +1,58 @@
 <template>
  <v-container>
+
    <v-row justify="center">
      <v-col cols="12">
-       <Content link='/profile' title="プロフィール"></Content>
+       <profile-box></profile-box>
      </v-col>
    </v-row>
+
    <v-row justify="center">
-     <v-col :cols=col :sm=sm :md=md :lg=lg>
-       <Content link='/product' title="制作物"></Content>
-     </v-col>
-     <v-col :cols=col :sm=sm :md=md :lg=lg>
-       <Content link='/skill' title="学んだ技術"></Content>
-     </v-col>
-     <v-col :cols=col :sm=sm :md=md :lg=lg>
-       <Content link='/learnedbooks' title="学習した書籍"></Content>
-     </v-col>
-     <v-col :cols=col :sm=sm :md=md :lg=lg>
-       <Content link='/learnedmovies' title="学習した動画"></Content>
+     <v-col cols='10' sm='5' md='4' lg='3'
+      v-for="item in contentItems" :key="item.link">
+       <content-box :link=item.link :title=item.title :src=item.src></content-box>
      </v-col>
    </v-row>
+
  </v-container>
 </template>
 
 <script>
-import Content from '@/components/ContentBox.vue'
+import ContentBox from '../components/ContentBox.vue'
+import ProfileBox from '../components/ProfileBox.vue'
 
 export default {
   name: 'Home',
   data() {
     return {
-      col: 10,
-      sm: 5,
-      md: 4,
-      lg: 3
+      profile: {
+        link: '/profile',
+        title: 'プロフィール',
+        descript: 'わたすはスケオです',
+        src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+         },
+      contentItems: [
+        {
+          link: '/skill',
+          title: '学んだ技術',
+          src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+        },
+        {
+          link: '/learnedbooks',
+          title: '学習した書籍',
+          src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+        },
+        {
+          link: '/learnedmovies',
+          title: '学習した動画',
+          src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+        }
+      ]
     }
   },
   components: {
-    Content,
+    ContentBox,
+    ProfileBox
   }
 }
 </script>
