@@ -3,8 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Product from '../views/Product.vue'
 import Skill from '../views/Skill.vue'
-import LearnedBooks from '../views/LearnedBooks.vue'
-import LearnedMovies from '../views/LearnedMovies.vue'
+import Learned from '../views/Learned.vue'
+import Contact from '../views/Contact.vue'
 
 Vue.use(VueRouter)
 
@@ -25,14 +25,14 @@ const routes = [
     component: Skill
   },
   {
-    path: '/learnedbooks',
-    name: 'LearnedBooks',
-    component: LearnedBooks
+    path: '/learned',
+    name: 'Learned',
+    component: Learned
   },
   {
-    path: '/learnedmovies',
-    name: 'LearnedMovies',
-    component: LearnedMovies
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   }
 ]
 

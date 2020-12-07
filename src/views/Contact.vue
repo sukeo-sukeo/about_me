@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'LearnedMovies',
+  name: 'Contact',
 }
 </script>

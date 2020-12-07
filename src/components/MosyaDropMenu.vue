@@ -1,8 +1,8 @@
 <template>
-  <v-expansion-panels>
+  <v-expansion-panels flat>
     <v-expansion-panel>
       <v-expansion-panel-header>
-        サイト模写
+        模写サイト一覧
       </v-expansion-panel-header>
       <v-expansion-panel-content 
        v-for="item in mosyaItems.mosyaData" :key="item.id">

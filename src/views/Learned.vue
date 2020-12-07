@@ -1,17 +1,17 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols="12" sm="6" md="4" lg="3"
+      <v-col cols="10" sm="4" md="3"
        v-for="data in requireData()" :key="data.title">
        
-        <content-box
+        <books-box
          :link=data[10]
          :src=data[9]
          :title=data[0]
          :descript=data[7]
          :auther=data[2]
          :publisher=data[4]
-        ></content-box>
+        ></books-box>
 
       </v-col>
     </v-row>
@@ -19,13 +19,13 @@
 </template>
 
 <script>
-import ContentBox from '../components/ContentBox.vue';
+import BooksBox from '../components/BooksBox.vue';
 
 export default {
+  name: 'Learned',
   components: { 
-    ContentBox 
+    BooksBox
     },
-  name: 'LearnedBooks',
   data: () => {
     return {
     }

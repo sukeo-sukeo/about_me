@@ -25,26 +25,25 @@ export default {
   name: 'Home',
   data() {
     return {
-      profile: {
-        link: '/profile',
-        title: 'プロフィール',
-        descript: 'わたすはスケオです',
-        src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
-         },
       contentItems: [
+        {
+          link: "/product",
+          title: '制作物',
+          src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+        },
         {
           link: '/skill',
           title: '学んだ技術',
           src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
         },
         {
-          link: '/learnedbooks',
-          title: '学習した書籍',
+          link: '/learned',
+          title: '学習に使用したもの',
           src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
         },
         {
-          link: '/learnedmovies',
-          title: '学習した動画',
+          link: '/contact',
+          title: 'コンタクト/SNS',
           src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
         }
       ]

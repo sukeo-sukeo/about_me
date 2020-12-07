@@ -33,17 +33,17 @@
           </v-card-title>
           <!-- 基本はこちらを表示 -->
           <v-card-title
-           class="py-0"
+           class="py-0 title"
            v-else>
             {{ title }}
           </v-card-title>
           <v-card-title
-           class="py-0"
+           class="py-0 auther"
            v-show="auther">
             {{ auther }}
           </v-card-title>
           <v-card-title
-           class="py-0"
+           class="py-0 publisher"
            v-show="publisher">
             {{ publisher }}
           </v-card-title>
@@ -87,3 +87,4 @@ export default {
   }
 }
 </script>
+

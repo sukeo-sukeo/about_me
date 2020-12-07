@@ -2,7 +2,7 @@ export const mosyaData = [
   {
     id: 1,
     path: "image-nest.png",
-    title: "模写サイト①",
+    title: "模写サイト:Level1",
     link:
     "https://sukeo-sukeo.github.io/NESTcafe-copysite/NESTcafe/cafe.html",
     description: `
@@ -12,7 +12,7 @@ export const mosyaData = [
   {
     id: 2,
     path: "image-designleaker.png",
-    title: "模写サイト②",
+    title: "模写サイト:Level2",
     link:
       "https://sukeo-sukeo.github.io/DsignLeaker-copysite/DsignLeaker/index.html",
     // './mades/DsignLeaker/index.html'
@@ -23,7 +23,7 @@ export const mosyaData = [
   {
     id: 3,
     path: "image-kibiru.png",
-    title: "模写サイト③",
+    title: "模写サイト:Level3",
     link:
       "https://sukeo-sukeo.github.io/kibiru_cafe-copysite/kibiru_cafe/index.html",
     // './mades/kibiru_cafe/index.html',
@@ -34,7 +34,7 @@ export const mosyaData = [
   {
     id: 4,
     path: "image-isara.png",
-    title: "模写サイト④",
+    title: "模写サイト:Level4",
     link:
       "https://sukeo-sukeo.github.io/iSara-copysite/iSara/index.html",
     // './mades/iSara/index.html',
@@ -45,7 +45,7 @@ export const mosyaData = [
   {
     id: 5,
     path: "image-airbnb.png",
-    title: "模写サイト⑤",
+    title: "模写サイト:Level5",
     link:
       "https://sukeo-sukeo.github.io/airbnb-copysite/airbnb/index.html",
     // './mades/airbnb/index.html',

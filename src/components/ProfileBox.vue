@@ -15,19 +15,19 @@
                   <img src="../assets/profile/img/face.jpg" alt="yusuke">
                 </v-avatar>
               </v-col>
-              <v-col cols="3">
-                <v-list>
-                  <v-list-item>Lorem, ipsum dolor.</v-list-item>
-                  <v-list-item>Lorem, ipsum dolor.</v-list-item>
-                  <v-list-item>Lorem, ipsum dolor.</v-list-item>
-                </v-list>
+              <v-col cols="8" sm="9">
+                <v-card-text>
+                  本業の傍らプログラムやWeb関連の知識を独学中。webサービスやアプリを作りながら学んでいます。<br>
+                  好きな言語はJavaScript。<br>
+                  没頭するタイプで、プログラムでものをつくっている時がとにかく楽しくて大好き！<br>
+                  現在はサーバーサイドにPHPを猛勉強中です。
+                </v-card-text>
               </v-col>
-              <v-col cols="5">
-                <content-box
-                 link="/product"
-                 title="制作物"
-                 src='https://cdn.vuetifyjs.com/images/cards/cooking.png'
-                 ></content-box>
+               <v-col cols="12">
+                <v-card-text>
+                  Lorem ipsum dolor sit amet.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, numquam!
+                </v-card-text>
               </v-col>
             </v-row>
           </v-card-text>
@@ -38,7 +38,6 @@
 </template>
 
 <script>
-import ContentBox from './ContentBox.vue'
 
 export default {
   name: 'ProfileBox',
@@ -47,9 +46,6 @@ export default {
 
     }
   },
-  components: {
-    ContentBox
-  }
 }
 </script>
 
