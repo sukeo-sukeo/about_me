@@ -5,7 +5,8 @@ export const madeItemData = [
            id: 5,
            path: "image-airbnb.png",
            title: "サイト模写",
-           link: "",
+           link:
+             "https://sukeo-sukeo.github.io/airbnb-copysite/airbnb/index.html",
            use: ["html", "css"],
            description: `学習開始からjavascirptを学び出すまでの３ヶ月間に作成した模写サイトです。`,
          },
@@ -49,7 +50,14 @@ export const madeItemData = [
            path: "todo.jpg",
            title: "TODOアプリ",
            link: "https://whispering-temple-91855.herokuapp.com/",
-           use: ["vue.js", "vuetify", "node.js", "express", "mongodb", 'mongoose'],
+           use: [
+             "vue.js",
+             "vuetify",
+             "node.js",
+             "express",
+             "mongodb",
+             "mongoose",
+           ],
            description: `
     シンプルなTODOリスト。初めてサーバーとデータベースを使ったWebアプリケーションを作りました。ログイン機能はライブラリを使わず自作。バリデーションやハッシュ化を学びました。gitの使用やcliの活用など、この制作を通して非常に多くのことを学ぶことができました。herokuにて公開しています。※herokuのDBが閉鎖して現在動作しません...近日migrate予定
     `,
@@ -76,8 +84,7 @@ export const madeItemData = [
              "API: leaflet",
              "API: REST Countries",
            ],
-           description: 
-           `国旗コレクションを楽しみながら、世界の国を勉強をしてもらえるアプリです。進行状況の表示をchart.jsでグラフ化。データ永続化はローカルストレージを使っています。また、実際のフロントエンド開発に近づけるためWebpack導入。フロントでnpmモジュールが使えることに感動しましたが、ファイル分割が思うようにできず次への課題となりました。`,
+           description: `国旗コレクションを楽しみながら、世界の国を勉強をしてもらえるアプリです。進行状況の表示をchart.jsでグラフ化。データ永続化はローカルストレージを使っています。また、実際のフロントエンド開発に近づけるためWebpack導入。フロントでnpmモジュールが使えることに感動しましたが、ファイル分割が思うようにできず次への課題となりました。`,
          },
        ];
 

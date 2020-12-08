@@ -29,22 +29,22 @@ export default {
         {
           link: "/product",
           title: '制作物',
-          src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+          src: require('../assets/home/img/product.jpg')
         },
         {
           link: '/skill',
           title: '学んだ技術',
-          src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+          src: require('../assets/home/img/books.jpg')
         },
         {
           link: '/learned',
           title: '学習に使用したもの',
-          src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+          src: require('../assets/home/img/learned.jpg')
         },
         {
           link: '/contact',
           title: 'コンタクト/SNS',
-          src: 'https://cdn.vuetifyjs.com/images/cards/cooking.png'
+          src: require('../assets/home/img/contact.jpg')
         }
       ]
     }
