@@ -12,14 +12,15 @@
             <v-row justify="space-between">
               <v-col cols="3">
                 <v-avatar size="150">
-                  <img src="../assets/profile/img/face.jpg" alt="yusuke">
+                  <img src="../assets/profile/img/faceIR.jpg" alt="yusuke">
                 </v-avatar>
               </v-col>
               <v-col cols="8" sm="9">
                 <v-card-text>
-                  本業の傍らプログラムやWeb関連の知識を独学中。主に書籍、Udemy、paizaでインプット。webサービスやアプリを作りながら学んでいます。<br>
-                  好きな言語はJavaScript。<br>
-                  没頭するタイプで、プログラムでものをつくっている時がとにかく楽しくて大好き！<br>
+                  没頭するタイプです。<br>
+                  得意な言語はJavaScriptです。<br>
+                  本業の傍らプログラムやWeb関連の知識を主に書籍、Udemy、paizaで独学中。webサービスやアプリを作りながら学んでいます。<br>
+                  プログラムでものをつくっている時がとにかく楽しくて大好き！<br>
                   現在はサーバーサイドにPHPを猛勉強中です。
                 </v-card-text>
               </v-col>
@@ -49,15 +50,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
- .sp_br {
-    @media screen and (min-width: 800px) {
-      display: none;
-    }
-  }
-
-  img {
-    object-fit: none;
-    object-position: 35% 36%;
+<style scoped>
+  @media screen and (min-width: 800px) {
+    .sp_br { display: none; }
   }
 </style>

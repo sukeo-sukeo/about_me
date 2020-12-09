@@ -10,7 +10,7 @@
    <v-row justify="center">
      <v-col cols='10' sm='5' md='4' lg='3'
       v-for="item in contentItems" :key="item.link">
-       <content-box :link=item.link :title=item.title :src=item.src></content-box>
+       <content-box :link=item.link :title=item.title :src=item.src :icon=item.icon></content-box>
      </v-col>
    </v-row>
 
@@ -29,22 +29,26 @@ export default {
         {
           link: "/product",
           title: '制作物',
-          src: require('../assets/home/img/product.jpg')
+          src: require('../assets/home/img/product.jpg'),
+          icon: 'mdi-laptop-chromebook'
         },
         {
           link: '/skill',
           title: '学んだ技術',
-          src: require('../assets/home/img/books.jpg')
+          src: require('../assets/home/img/books.jpg'),
+          icon: 'mdi-hand-heart-outline'
         },
         {
           link: '/learned',
           title: '学習に使用したもの',
-          src: require('../assets/home/img/learned.jpg')
+          src: require('../assets/home/img/learned.jpg'),
+          icon: 'mdi-book-open-page-variant-outline'
         },
         {
           link: '/contact',
           title: 'コンタクト/SNS',
-          src: require('../assets/home/img/contact.jpg')
+          src: require('../assets/home/img/contact.jpg'),
+          icon: 'mdi-card-account-mail-outline'
         }
       ]
     }

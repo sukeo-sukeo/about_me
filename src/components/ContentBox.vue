@@ -33,8 +33,13 @@
           </v-card-title>
           <!-- 基本はこちらを表示 -->
           <v-card-title
-           class="py-0 title"
+           class="pb-0 title"
            v-else>
+           <v-icon v-show="urlPath === '/'"
+           class="mr-3"
+           >
+            {{ icon }}
+           </v-icon>
             {{ title }}
           </v-card-title>
           <v-card-title
@@ -69,7 +74,8 @@ export default {
     descript: String,
     src: String,
     auther: String,
-    publisher: String
+    publisher: String,
+    icon: String
     },
   data: function() {
     return {
